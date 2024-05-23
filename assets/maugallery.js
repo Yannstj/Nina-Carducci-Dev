@@ -141,7 +141,6 @@
         if ($(activeImage).attr("src") === $(this).attr("src")) {
           index = i;
           next = imagesCollection[index - 1];
-          //imagesCollection[imagesCollection.length - 1]; // last element of array
           $(".lightboxImage").attr("src", $(next).attr("src"));
         }
       });
